@@ -17,7 +17,7 @@
 
         <v-spacer></v-spacer>
 
-        <v-btn icon @click="getMovies(1)">
+        <v-btn id="searchButton" icon @click="getMovies(1)">
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
 
